@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12 Project - 9 Texas Water Wells Data</title>
+
+    <link rel="stylesheet" href="./prj_9waterWells.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id='container'>
+        <div id="section1">
+            <div id="header">
+                <h1>9 Water Wells Somewhere In Texas</h1>
+            </div>
+            <div id="snapshot1">
+                <h2 id="wellOwner"></h2>
+                <p class="text1" id="wellNumber"></p>
+                <p class="text1" id="proposedUse"></p>
+                <p class="text1" id="coordinates"></p>
+                <p class="text1" id="elevation"></p>
+                <p class="text1" id="aquifer"></p>
+            </div>
+            <div id="snapshot2">
+                <h2 id="testType"></h2>
+                <div id="Y">
+                    <h2></h2>
+                    <p></p>
+                </div>
+                <div id="dd">
+                    <h2></h2>
+                    <p></p>
+                </div>
+                <div id="tt">
+                    <h2></h2>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="section2">
+            <div id="list">
+                <div>
+                    <h3 class="tcws">191104</h3>
+                    <input type='checkbox' class='tcws' />
+                </div>
+                <div>
+                    <h3 class="ly">11320</h3>
+                    <input type='checkbox' class="ly" />
+                </div>
+                <div>
+                    <h3 class="bhdllc">567667</h3>
+                    <input type='checkbox' class="bhdllc" />
+                </div>
+                <div>
+                    <h3 class="tt">25698</h3>
+                    <input type='checkbox' class="tt" />
+                </div>
+                <div>
+                    <h3 class="ls">344663</h3>
+                    <input type='checkbox' class="ls" />
+                </div>
+                <div>
+                    <h3 class="bcisd">95177</h3>
+                    <input type='checkbox' class="bcisd" />
+                </div>
+                <div>
+                    <h3 class="jblr">490892</h3>
+                    <input type='checkbox' class="jblr" />
+                </div>
+                <div>
+                    <h3 class="rb">58131</h3>
+                    <input type='checkbox' class="rb" />
+                </div>
+                <div>
+                    <h3 class="rm">409698</h3>
+                    <input type='checkbox' class="rm" />
+                </div>
+            </div>
+
+            <div id="charts">
+                <div id="charts1">
+                    <div class="chartarea" id='yieldChart'>
+                        <p class="charttitle"></p>
+                    </div>
+                    <div class="chartarea" id='screenlengthChart'>
+                        <!-- screenDepthBottom - screenDepthTop -->
+                        <p class="charttitle"></p>
+                    </div>
+                </div>
+                <div id="charts2">
+                    <div class="chartarea" id='waterLevelChart'>
+                        <p class="charttitle"></p>
+                    </div>
+                    <div class="chartarea" id='drawdownChart'>
+                        <p class="charttitle"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../d3_min_lib/d3.min.js"></script>
+    <script src="./prj_9waterWells.js"></script>
+</body>
+</html>
