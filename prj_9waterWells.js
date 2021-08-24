@@ -7,7 +7,7 @@ const waterData = [
         proposedUse: 'Public Supply',
         latitude: 30.406112,  //DD
         longitude: -98.006389, //DD
-        elevation: 9999,    //ft above sea level
+        elevation: 2883,    //ft above sea level
         color: 'salmon',
         boreholeDiameter1: 10,    //in
         boreholeTop1: 0,    //ft
@@ -33,7 +33,7 @@ const waterData = [
         proposedUse: 'Domestic',
         latitude: 30.405556,  //DD
         longitude: -98.006112, //DD
-        elevation: 9999,    //ft above sea level
+        elevation: 2874,    //ft above sea level
         color: 'coral',
         boreholeDiameter1: 8,    //in
         boreholeTop1: 0,    //ft
@@ -59,7 +59,7 @@ const waterData = [
         proposedUse: 'Domestic',
         latitude: 30.4047,  //DD
         longitude: -98.00365, //DD
-        elevation: 9999,    //ft above sea level
+        elevation: 2857,    //ft above sea level
         color: 'khaki',
         boreholeDiameter1: 9,    //in
         boreholeTop1: 0,    //ft
@@ -111,14 +111,14 @@ const waterData = [
         proposedUse: 'Domestic',
         latitude: 30.586945,  //DD
         longitude: -97.382778, //DD
-        elevation: 9999,    //ft above sea level
+        elevation: 2673,    //ft above sea level
         color: 'deepskyblue',
         boreholeDiameter1: 8,    //in
         boreholeTop1: 0,    //ft
         boreholeBottom1: 45,    //ft
-        boreholeDiameter2: null,    //in
-        boreholeTop2: null,    //ft
-        boreholeBottom2: null,    //ft
+        boreholeDiameter2: 6,    //in
+        boreholeTop2: 45,    //ft
+        boreholeBottom2: 55,    //ft
         screenDepthTop: 16,
         screenDepthBottom: 35,
         aquifer: 'Fresh',
@@ -137,14 +137,14 @@ const waterData = [
         proposedUse: 'Irrigation',
         latitude: 	30.775278,  //DD
         longitude: 	-98.226389, //DD
-        elevation: 9999,    //ft above sea level
+        elevation: 3412,    //ft above sea level
         color: 'violet',
         boreholeDiameter1: 10,    //in
         boreholeTop1: 0,    //ft
         boreholeBottom1: 200,    //ft
-        boreholeDiameter2: null,    //in
-        boreholeTop2: null,    //ft
-        boreholeBottom2: null,    //ft
+        boreholeDiameter2: 6,    //in
+        boreholeTop2: 200,    //ft
+        boreholeBottom2: 210,    //ft
         screenDepthTop: 90,
         screenDepthBottom: 200,
         aquifer: 'Ellenberger',
@@ -189,7 +189,7 @@ const waterData = [
         proposedUse: 'Domestic',
         latitude: 	31.736111,  //DD
         longitude: 	-98.351945, //DD
-        elevation: 9999,    //ft above sea level
+        elevation: 3454,    //ft above sea level
         color: 'mistyrose',
         boreholeDiameter1: 8.75,    //in
         boreholeTop1: 0,    //ft
@@ -220,9 +220,9 @@ const waterData = [
         boreholeDiameter1: 8,    //in
         boreholeTop1: 0,    //ft
         boreholeBottom1: 82,    //ft
-        boreholeDiameter2: null,    //in
-        boreholeTop2: null,    //ft
-        boreholeBottom2: null,    //ft
+        boreholeDiameter2: 6,    //in
+        boreholeTop2: 82,    //ft
+        boreholeBottom2: 92,    //ft
         screenDepthTop: 49,
         screenDepthBottom: 82,
         aquifer: 'Fresh',
